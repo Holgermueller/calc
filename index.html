@@ -21,20 +21,27 @@
   </head>
   <body>
     <div class="calc-body">
+      <section id="logo">
+        <h2>Logiheck Calculators</h2>
+      </section>
       <section id="display">display</section>
 
       <section class="operators">
         <div class="container">
           <div class="row">
             <div class="col">
-              <button class="btn btn-primary w-100 operator" value="+" id="add">
+              <button
+                class="btn btn-primary w-100 operator"
+                value="plus"
+                id="add"
+              >
                 +
               </button>
             </div>
             <div class="col">
               <button
                 class="btn btn-primary w-100 operator"
-                value="-"
+                value="minus"
                 id="subtract"
               >
                 -
@@ -43,7 +50,7 @@
             <div class="col">
               <button
                 class="btn btn-primary w-100 operator"
-                value="*"
+                value="times"
                 id="multiply"
               >
                 *
@@ -52,7 +59,7 @@
             <div class="col">
               <button
                 class="btn btn-primary w-100 operator"
-                value="/"
+                value="divide"
                 id="divide"
               >
                 /
@@ -127,7 +134,9 @@
             </button>
           </div>
           <div class="col">
-            <button class="btn btn-info w-100" id="decimal">.</button>
+            <button class="btn btn-info w-100 number" value="." id="decimal">
+              .
+            </button>
           </div>
           <div class="col">
             <button class="btn btn-success w-100" id="equals">=</button>
