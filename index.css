@@ -1,0 +1,25 @@
+.calc-body {
+  width: 75%;
+  margin: 7% auto;
+  background-color: grey;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+#display {
+  margin: 8px;
+  text-align: right;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: honeydew;
+  padding: 8px;
+}
+
+button {
+  margin: 8px;
+  font-size: 40px;
+}
+
+#decimal {
+  color: ghostwhite;
+}
